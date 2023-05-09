@@ -1,0 +1,89 @@
+ <!-- Write a javascript program to sort array method (var arr = ["php","angular js","android","ruby","python"]). -->
+ <script type="text/javascript">
+
+    var arr = ["php","angular js","android","ruby","python"];
+
+    var ans = arr.sort();
+
+    document.write("Answer of sort array: "+ans);
+
+    document.write("<br><br>");
+
+    // Write a javascript program to reverce array method.(var arr = ["php","angular js","android","ruby","python"]).
+
+    var rev = arr.reverse();
+
+    document.write("Answer of reverse array: "+rev);
+
+    document.write("<br><br>");
+
+    // Write a javascript program to remove last element in array.
+
+    var ans1 = arr.pop("android");
+
+    document.write("remove last element of array: "+arr);
+
+    document.write("<br><br>");
+
+    // Write a javascript program to add first element in array
+
+    arr.unshift("Android");
+
+    document.write("Add first element of array: "+arr);
+
+    document.write("<br><br>");
+
+    // Write a simple JavaScript program to string convert upper to lowercase.
+
+    var str = "JAVASCRIPT PROGRAM CONVERT UPPER CASE TO LOWER CASE";
+
+    var value = str.toLowerCase();
+
+    document.write(" "+value);
+
+    document.write("<br><br>");
+
+    // .Write a javascript program to convert string to array.
+
+    var  str = "JAVASCRIPT PROGRAM";
+
+    var value1 =  Array.from(str);
+
+    document.write("convert string to array: "+value1);
+
+    document.write("<br><br>");
+
+    // Write a javascript program to all array element sum(using array map method).
+    var arr1 = [10,20,30];
+    var sum =0;
+
+    var ans2 = arr1.map(function demo(v,i,a){
+        return sum += v;
+    });
+
+    document.write("Sum of all array element: "+sum);
+
+    document.write("<br><br>");
+
+    // Write a javascript program to find all negative elements(using array filter method).
+
+    const number = [9, -4, -8, 10]; 
+    var ans4 = number.filter(function demo(v,i,a){
+        return v < 0;
+    });
+
+    document.write("Negative number: "+ans4);
+
+    document.write("<br><br>");
+
+
+    // Write a javascript program to convert array to string.
+
+    var str = ["php","angular js","android","ruby","python"];
+
+    var value3 = str.toString();
+
+    document.write("Convert array to string: "+value3);
+
+
+ </script>
